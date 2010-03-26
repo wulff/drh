@@ -1,0 +1,15 @@
+--- jquery_ui.module.orig	2010-03-26 16:42:30.000000000 +0100
++++ jquery_ui.module	2010-03-26 16:43:03.000000000 +0100
+@@ -18,10 +18,10 @@
+  * safe for use in URLs.
+  */
+ if (defined('MAINTENANCE_MODE') && MAINTENANCE_MODE == 'install') {
+-  define('JQUERY_UI_PATH', dirname(__FILE__) . '/jquery.ui');
++  define('JQUERY_UI_PATH', dirname(__FILE__) . '/jquery_ui');
+ }
+ else {
+-  define('JQUERY_UI_PATH', drupal_get_path('module', 'jquery_ui') . '/jquery.ui');
++  define('JQUERY_UI_PATH', drupal_get_path('module', 'jquery_ui') . '/jquery_ui');
+ }
+ 
+ /**
