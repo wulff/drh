@@ -20,6 +20,7 @@ projects[cck][subdir] = contrib
 projects[content_profile][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[date][subdir] = contrib
+projects[demo][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[embed_gmap][subdir] = contrib
 projects[features][subdir] = contrib
