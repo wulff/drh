@@ -14,6 +14,7 @@ projects[pressflow][download][url] = http://launchpad.net/pressflow/6.x/6.16.77/
 projects[active_tags][subdir] = contrib
 projects[admin_menu][subdir] = contrib
 projects[advanced_help][subdir] = contrib
+projects[better_formats][subdir] = contrib
 projects[calendar][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[content_profile][subdir] = contrib
@@ -67,3 +68,7 @@ libraries[jquery_ui][destination] = modules/contrib/jquery_ui
 ;projects[drh_utility][subdir] = drh
 ;projects[drh_utility][download][type] = git
 ;projects[drh_utility][download][url] = git://github.com/developmentseed/tao.git
+
+; patches for contrib modules
+; ---------------------------
+projects[jquery_ui][patch][] = http://github.com/wulff/drh/raw/master/jquery_ui.module.patch
