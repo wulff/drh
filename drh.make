@@ -17,7 +17,6 @@ projects[advanced_help][subdir] = contrib
 projects[better_formats][subdir] = contrib
 projects[calendar][subdir] = contrib
 projects[cck][subdir] = contrib
-projects[content_profile][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[date][subdir] = contrib
 projects[demo][subdir] = contrib
@@ -65,11 +64,12 @@ libraries[jquery_ui][destination] = modules/contrib/jquery_ui
 
 ; drh themes
 ; ----------
-;projects[drh_utility][type] = theme
-;projects[drh_utility][subdir] = drh
-;projects[drh_utility][download][type] = git
-;projects[drh_utility][download][url] = git://github.com/developmentseed/tao.git
+projects[drh_jensen][type] = theme
+projects[drh_jensen][subdir] = drh
+projects[drh_jensen][download][type] = git
+projects[drh_jensen][download][url] = git://github.com/wulff/drh_jensen.git
 
 ; patches for contrib modules
 ; ---------------------------
 projects[jquery_ui][patch][] = http://github.com/wulff/drh/raw/master/jquery_ui.module.patch
+projects[pathauto][patch][] = http://github.com/wulff/drh/raw/master/i18n-ascii.txt.patch
