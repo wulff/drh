@@ -22,6 +22,7 @@ projects[date][subdir] = contrib
 projects[demo][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[embed_gmap][subdir] = contrib
+projects[exportables][subdir] = contrib
 projects[features][subdir] = contrib
 projects[filefield][subdir] = contrib
 projects[filefield_paths][subdir] = contrib
@@ -30,6 +31,7 @@ projects[imageapi][subdir] = contrib
 projects[imagecache][subdir] = contrib
 projects[imagefield][subdir] = contrib
 projects[jquery_ui][subdir] = contrib
+projects[l10n_client][subdir] = contrib
 projects[lightbox2][subdir] = contrib
 projects[link][subdir] = contrib
 projects[markdown][subdir] = contrib
@@ -40,6 +42,7 @@ projects[path_redirect][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[primary_term][subdir] = contrib
 projects[search404][subdir] = contrib
+projects[strongarm][subdir] = contrib
 projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[typogrify][subdir] = contrib
@@ -57,15 +60,19 @@ libraries[jquery_ui][destination] = modules/contrib/jquery_ui
 
 ; drh projects
 ; ------------
-;projects[drh_utility][type] = module
-;projects[drh_utility][subdir] = drh
-;projects[drh_utility][download][type] = git
-;projects[drh_utility][download][url] = git://github.com/developmentseed/tao.git
+projects[drh_core][type] = module
+projects[drh_core][subdir] = custom
+projects[drh_core][download][type] = git
+projects[drh_core][download][url] = git://github.com/wulff/drh_core.git
+projects[drh_utility][type] = module
+projects[drh_utility][subdir] = custom
+projects[drh_utility][download][type] = git
+projects[drh_utility][download][url] = git://github.com/wulff/drh_utility.git
 
 ; drh themes
 ; ----------
 projects[drh_jensen][type] = theme
-projects[drh_jensen][subdir] = drh
+projects[drh_jensen][subdir] = custom
 projects[drh_jensen][download][type] = git
 projects[drh_jensen][download][url] = git://github.com/wulff/drh_jensen.git
 
