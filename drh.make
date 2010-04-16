@@ -41,7 +41,6 @@ projects[pathauto][subdir] = contrib
 projects[primary_term][subdir] = contrib
 projects[search404][subdir] = contrib
 projects[strongarm][subdir] = contrib
-projects[taxonomy_export][subdir] = contrib
 projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[typogrify][subdir] = contrib
