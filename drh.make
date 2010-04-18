@@ -27,6 +27,7 @@ projects[globalredirect][subdir] = contrib
 projects[imageapi][subdir] = contrib
 projects[imagecache][subdir] = contrib
 projects[imagefield][subdir] = contrib
+projects[imagefield_import][subdir] = contrib
 projects[install_profile_api][subdir] = contrib
 projects[jquery_ui][subdir] = contrib
 projects[l10n_client][subdir] = contrib
@@ -46,6 +47,7 @@ projects[token][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[typogrify][subdir] = contrib
 projects[views][subdir] = contrib
+projects[views_tagger][subdir] = contrib
 
 ; contrib themes
 ; --------------
