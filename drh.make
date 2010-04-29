@@ -14,6 +14,7 @@ projects[pressflow][download][url] = http://launchpad.net/pressflow/6.x/6.16.77/
 projects[active_tags][subdir] = contrib
 projects[admin_menu][subdir] = contrib
 projects[advanced_help][subdir] = contrib
+projects[browscap][subdir] = contrib
 projects[calendar][subdir] = contrib
 projects[cck][subdir] = contrib
 projects[ctools][subdir] = contrib
@@ -35,6 +36,7 @@ projects[lightbox2][subdir] = contrib
 projects[link][subdir] = contrib
 projects[markdown][subdir] = contrib
 projects[menu_block][subdir] = contrib
+projects[mobile_theme][subdir] = contrib
 projects[nodeformcols][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[path_redirect][subdir] = contrib
@@ -52,6 +54,7 @@ projects[views_tagger][subdir] = contrib
 ; contrib themes
 ; --------------
 projects[ninesixty][subdir] = contrib
+projects[iui][subdir] = contrib
 
 ; libraries
 ; ---------
