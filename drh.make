@@ -38,6 +38,7 @@ projects[markdown][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[mobile_theme][subdir] = contrib
 projects[nodeformcols][subdir] = contrib
+projects[nodereference_explorer][subdir] = contrib
 projects[panels][subdir] = contrib
 projects[path_redirect][subdir] = contrib
 projects[pathauto][subdir] = contrib
@@ -50,6 +51,7 @@ projects[transliteration][subdir] = contrib
 projects[typogrify][subdir] = contrib
 projects[views][subdir] = contrib
 projects[views_tagger][subdir] = contrib
+projects[webform][subdir] = contrib
 
 ; contrib themes
 ; --------------
